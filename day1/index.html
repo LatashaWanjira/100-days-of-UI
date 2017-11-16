@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Sign Up Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="styles/styles.css" media="screen" title="no title">
+        <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/63aea2fce6.js"></script>
+        <script src="js/scripts.js"></script>
+    </head>
+
+    <body>
+
+        <div class="row">
+            <div class="col-md-offset-7 col-md-5 sign-up-fields">
+                <h1>WELCOME TO PARADISE</h1>
+                <ul class="nav nav-tabs nav-justified">
+                    <li data-toggle="tab" role="presentation" class="active"><a data-toggle="tab" href="#sign-up">Sign Up</a></li>
+                    <li role="presentation"><a data-toggle="tab" href="#log-in">Log In</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="sign-up" class="tab-pane fade in active">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" name="first-name" placeholder="First name please">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" placeholder="Last name please">
+                        </div>
+                        <div class="form-group">
+                            <label for="username">User Name</label>
+                            <input type="text" name="username" placeholder="What username would you like?">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" placeholder="Enter your password">
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" name="confirm-password" placeholder="Enter re-enter password">
+                        </div>
+                        <button type="button" name="button">Sign Up</button>
+
+                    </div>
+                    <div id="log-in" class="tab-pane fade">
+                        <div class="form-group">
+                            <label for="username">User Name</label>
+                            <input type="text" name="username" placeholder="Your username please">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" placeholder="Enter your password">
+                        </div>
+                        <button type="button" name="button">Log In</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <h5>Made with <span class="fa fa-heart"></span> <script type="text/javascript">document.write(new Date().getFullYear());</script></h5>
+        </footer>
+    </body>
+
+</html>
