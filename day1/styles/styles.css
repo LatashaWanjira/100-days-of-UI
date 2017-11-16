@@ -9,8 +9,26 @@ body {
   margin: 0;
 }
 
+.all {
+  padding-top: 40%;
+}
+
 .sign-up-fields {
-  height: 100vh;
+  margin-top: -55vh;
+}
+
+.sign-up-fields .input {
+  text-align: right;
+}
+
+input {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid white;
+}
+
+.form-group {
+  margin: 10px 0;
 }
 
 footer {
